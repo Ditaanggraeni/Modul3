@@ -1,0 +1,4 @@
+github.com/dustin/go-humanize v1.0.0 h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo=
+github.com/dustin/go-humanize v1.0.0/go.mod h1:HtrtbFcZ19U5GC7JDqmcUSB87Iq5E25KnS6fMYU6eOk=
+github.com/paimanbandi/rupiah v0.0.0-20190615092530-d26e508f1077 h1:7FnDjKfXcVpB2eLBVTITcqyvevTq1xP08lkHjvnA7rE=
+github.com/paimanbandi/rupiah v0.0.0-20190615092530-d26e508f1077/go.mod h1:V7CnLys2N4FvKlYCWpPn6CV4cRgGRabuv77Ox3M8vzE=

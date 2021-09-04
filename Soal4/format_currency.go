@@ -2,12 +2,15 @@ package main
 
 import (
 	"fmt"
-	"Intl.NumberFormat"
-)
-func main() {
-	var a = 2000;
-	var options = { style: 'currency', currency: 'USD'};
-	
-	console.log(new Intl.NumberFormat('en-US', options).format(a));
 
+	"github.com/paimanbandi/rupiah"
+)
+
+func main() {
+	var uang int
+	fmt.Print("Masukkan Jumlah Uang : ")
+	fmt.Scan(&uang)
+	usd := 0.00007 * float32(uang)
+	fmt.Println("Rupiah :", rupiah.FormatFloat64ToRp(float64(uang)))
+	fmt.Println("USD :", "$", usd)
 }
